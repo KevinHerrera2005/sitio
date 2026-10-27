@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+
+    <link rel="preload" href="./css/style.css" as="style" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preload" href="./css/normallize.css" as="style" />
+    <link rel="stylesheet" href="./css/normallize.css" />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+      as="font"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="indice contenedor">
+        <a class="logo" href="index.html">
+          <h1 class="logo__nombre no-margin centrar-texto">
+            Blog<span class="logo__bold">DeCafe</span>
+          </h1>
+        </a>
+        <nav class="links">
+          <a href="nosotros.html">Nosotros</a>
+          <a href="cursos.html">Cursos</a>
+          <a href="contacto.html">Contacto</a>
+        </nav>
+      </div>
+
+      <section class="sub-indice">
+        <h2 class="no-margin">blog de cafe con consejos y cursos</h2>
+        <p class="no-margin">
+          aprende de los expertsos con las mejores recetas y consejos
+        </p>
+      </section>
+    </header>
+
+    <main class="contenedor">
+      <div class="contenido">
+        <article class="contenido__nuestroBlog entrada">
+          <h2 class="contenido__subtitulo">nuestro blog</h2>
+          <picture>
+            <source srcset="./img/blog1.webp" type="image/webp">
+            <img loading="lazy" src="./img/blog1.jpg" class="cont_imagen" />
+          </picture>
+          <h3>tipos de grano de cafe</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ex
+            quos eligendi eaque iste mollitia provident quasi, autem nostrum
+            totam, quod nesciunt. Officiis aperiam natus fugiat rem quae facere
+            illo.
+          </p>
+          <a href="leer_entrada.html">
+            <button type="button" class="contenido__subtitulo__boton">
+              leer entrada
+            </button>
+          </a>
+        </article>
+
+        <article class="cursos">
+          <h2 class="contenido__subtitulo">nuestros cursos y talleres</h2>
+          <h3 class="contenido__subtitulo2">tecnicas de extraccion de cafe</h3>
+          <div class="precio-cupo entrada">
+            <p><span class="precio-cupo__resultado">precio:</span> gratis</p>
+            <p><span class="precio-cupo__resultado">cupo:</span> 20</p>
+            <button type="button" class="cursos__boton">Mas informacion</button>
+          </div>
+
+          <div class="cursos__receta">
+            <h3 class="contenido__subtitulo2">
+              4 recetas de cafe para principiantes
+            </h3>
+            <asside class="precio-cupo">
+              <p><span class="precio-cupo__resultado">precio:</span> gratis</p>
+              <p><span class="precio-cupo__resultado">cupo:</span> 20</p>
+              <button type="button" class="cursos__boton">
+                Mas informacion
+              </button>
+            </asside>
+          </div>
+        </article>
+      </div>
+
+      <div class="mas-cafe">
+        <article class="entrada">
+
+          <picture>
+            <source srcset="./img/blog2.webp" type="image/webp"> 
+            <img loading="lazy" src="./img/blog2.jpg" class="cont_imagen" />
+          </picture>
+          
+          <h3>3 deliciosas recetas para cafe</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ex
+            quos eligendi eaque iste mollitia provident quasi, autem nostrum
+            totam, quod nesciunt. Officiis aperiam natus fugiat rem quae facere
+            illo.
+          </p>
+          <button type="button" class="contenido__subtitulo__boton">
+            leer entrada
+          </button>
+        </article>
+
+        <article class="entrada">
+          <picture>
+            <source srcset="./img/blog3.webp" type="image/webp">
+            <img loading="lazy" src="./img/blog3.jpg" class="cont_imagen" />
+          </picture>
+          
+          <h3>beneficios del cafe</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ex
+            quos eligendi eaque iste mollitia provident quasi, autem nostrum
+            totam, quod nesciunt. Officiis aperiam natus fugiat rem quae facere
+            illo.
+          </p>
+          <a href="leer_entrada.html">
+            <button type="button" class="contenido__subtitulo__boton">
+              leer entrada
+            </button>
+          </a>
+        </article>
+      </div>
+    </main>
+    <footer>
+      <div class="indice contenedor">
+        <a class="logo" href="index.html">
+          <h1 class="logo__nombre no-margin centrar-texto">
+            Blog<span class="logo__bold">DeCafe</span>
+          </h1>
+        </a>
+        <nav class="links">
+          <a href="nosotros.html">Nosotros</a>
+          <a href="cursos.html">Cursos</a>
+          <a href="contacto.html">Contacto</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
